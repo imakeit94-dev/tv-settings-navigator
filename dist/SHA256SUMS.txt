@@ -1,0 +1,1 @@
+99bcbdd959f05c8fb9140f4736ffc01f38acaf5c3abb6f1297133f00eb69f367 *dist/tv-settings-navigator.apk

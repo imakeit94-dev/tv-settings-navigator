@@ -1,0 +1,609 @@
+Processing 'build/dex/classes.dex'...
+Opened 'build/dex/classes.dex', DEX version '035'
+Class #0            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/MainActivity$1;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'Landroid/view/View$OnClickListener;'
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/MainActivity$1;)
+      name          : 'this$0'
+      type          : 'Lcom/gelab/tvsettingsnavigator/MainActivity;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+    #1              : (in Lcom/gelab/tvsettingsnavigator/MainActivity$1;)
+      name          : 'val$action'
+      type          : 'Ljava/lang/String;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+    #2              : (in Lcom/gelab/tvsettingsnavigator/MainActivity$1;)
+      name          : 'val$entryLabelRes'
+      type          : 'I'
+      access        : 0x1010 (FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/MainActivity$1;)
+      name          : '<init>'
+      type          : '(Lcom/gelab/tvsettingsnavigator/MainActivity;Ljava/lang/String;I)V'
+      access        : 0x10000 (CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 4
+      outs          : 1
+      insns size    : 10 16-bit code units
+000624:                                        |[000624] com.gelab.tvsettingsnavigator.MainActivity$1.<init>:(Lcom/gelab/tvsettingsnavigator/MainActivity;Ljava/lang/String;I)V
+000634: 5b01 0000                              |0000: iput-object v1, v0, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.this$0:Lcom/gelab/tvsettingsnavigator/MainActivity; // field@0000
+000638: 5b02 0100                              |0002: iput-object v2, v0, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.val$action:Ljava/lang/String; // field@0001
+00063c: 5903 0200                              |0004: iput v3, v0, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.val$entryLabelRes:I // field@0002
+000640: 7010 1a00 0000                         |0006: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+000646: 0e00                                   |0009: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=37
+      locals        :
+        0x0000 - 0x000a reg=0 this Lcom/gelab/tvsettingsnavigator/MainActivity$1;
+        0x0000 - 0x000a reg=1 (null) Lcom/gelab/tvsettingsnavigator/MainActivity;
+        0x0000 - 0x000a reg=2 (null) Ljava/lang/String;
+        0x0000 - 0x000a reg=3 (null) I
+
+  Virtual methods   -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/MainActivity$1;)
+      name          : 'onClick'
+      type          : '(Landroid/view/View;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 3
+      insns size    : 10 16-bit code units
+000648:                                        |[000648] com.gelab.tvsettingsnavigator.MainActivity$1.onClick:(Landroid/view/View;)V
+000658: 5423 0000                              |0000: iget-object v3, v2, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.this$0:Lcom/gelab/tvsettingsnavigator/MainActivity; // field@0000
+00065c: 5420 0100                              |0002: iget-object v0, v2, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.val$action:Ljava/lang/String; // field@0001
+000660: 5221 0200                              |0004: iget v1, v2, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.val$entryLabelRes:I // field@0002
+000664: 7130 0a00 0301                         |0006: invoke-static {v3, v0, v1}, Lcom/gelab/tvsettingsnavigator/MainActivity;.access$000:(Lcom/gelab/tvsettingsnavigator/MainActivity;Ljava/lang/String;I)V // method@000a
+00066a: 0e00                                   |0009: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=40
+      locals        :
+        0x0000 - 0x000a reg=2 this Lcom/gelab/tvsettingsnavigator/MainActivity$1;
+        0x0000 - 0x000a reg=3 (null) Landroid/view/View;
+
+  source_file_idx   : 32 (MainActivity.java)
+
+Class #1            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/MainActivity;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Landroid/app/Activity;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/MainActivity;)
+      name          : 'statusView'
+      type          : 'Landroid/widget/TextView;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/MainActivity;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00066c:                                        |[00066c] com.gelab.tvsettingsnavigator.MainActivity.<init>:()V
+00067c: 7010 0000 0000                         |0000: invoke-direct {v0}, Landroid/app/Activity;.<init>:()V // method@0000
+000682: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=16
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/MainActivity;
+
+    #1              : (in Lcom/gelab/tvsettingsnavigator/MainActivity;)
+      name          : 'access$000'
+      type          : '(Lcom/gelab/tvsettingsnavigator/MainActivity;Ljava/lang/String;I)V'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 3
+      insns size    : 4 16-bit code units
+000684:                                        |[000684] com.gelab.tvsettingsnavigator.MainActivity.access$000:(Lcom/gelab/tvsettingsnavigator/MainActivity;Ljava/lang/String;I)V
+000694: 7030 1000 1002                         |0000: invoke-direct {v0, v1, v2}, Lcom/gelab/tvsettingsnavigator/MainActivity;.open:(Ljava/lang/String;I)V // method@0010
+00069a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=16
+      locals        :
+        0x0000 - 0x0004 reg=0 (null) Lcom/gelab/tvsettingsnavigator/MainActivity;
+        0x0000 - 0x0004 reg=1 (null) Ljava/lang/String;
+        0x0000 - 0x0004 reg=2 (null) I
+
+    #2              : (in Lcom/gelab/tvsettingsnavigator/MainActivity;)
+      name          : 'bind'
+      type          : '(ILjava/lang/String;I)V'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 5
+      ins           : 4
+      outs          : 4
+      insns size    : 15 16-bit code units
+00069c:                                        |[00069c] com.gelab.tvsettingsnavigator.MainActivity.bind:(ILjava/lang/String;I)V
+0006ac: 6e20 0c00 2100                         |0000: invoke-virtual {v1, v2}, Lcom/gelab/tvsettingsnavigator/MainActivity;.findViewById:(I)Landroid/view/View; // method@000c
+0006b2: 0c02                                   |0003: move-result-object v2
+0006b4: 1f02 0700                              |0004: check-cast v2, Landroid/widget/Button; // type@0007
+0006b8: 2200 0900                              |0006: new-instance v0, Lcom/gelab/tvsettingsnavigator/MainActivity$1; // type@0009
+0006bc: 7040 0700 1043                         |0008: invoke-direct {v0, v1, v3, v4}, Lcom/gelab/tvsettingsnavigator/MainActivity$1;.<init>:(Lcom/gelab/tvsettingsnavigator/MainActivity;Ljava/lang/String;I)V // method@0007
+0006c2: 6e20 0400 0200                         |000b: invoke-virtual {v2, v0}, Landroid/widget/Button;.setOnClickListener:(Landroid/view/View$OnClickListener;)V // method@0004
+0006c8: 0e00                                   |000e: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=36
+        0x0006 line=37
+      locals        :
+        0x0000 - 0x000f reg=1 this Lcom/gelab/tvsettingsnavigator/MainActivity;
+        0x0000 - 0x000f reg=2 (null) I
+        0x0000 - 0x000f reg=3 (null) Ljava/lang/String;
+        0x0000 - 0x000f reg=4 (null) I
+
+    #3              : (in Lcom/gelab/tvsettingsnavigator/MainActivity;)
+      name          : 'open'
+      type          : '(Ljava/lang/String;I)V'
+      access        : 0x0002 (PRIVATE)
+      code          -
+      registers     : 7
+      ins           : 3
+      outs          : 3
+      insns size    : 57 16-bit code units
+000768:                                        |[000768] com.gelab.tvsettingsnavigator.MainActivity.open:(Ljava/lang/String;I)V
+000778: 6e20 0d00 6400                         |0000: invoke-virtual {v4, v6}, Lcom/gelab/tvsettingsnavigator/MainActivity;.getString:(I)Ljava/lang/String; // method@000d
+00077e: 0c06                                   |0003: move-result-object v6
+000780: 1200                                   |0004: const/4 v0, #int 0 // #0
+000782: 1211                                   |0005: const/4 v1, #int 1 // #1
+000784: 2202 0300                              |0006: new-instance v2, Landroid/content/Intent; // type@0003
+000788: 7020 0200 5200                         |0008: invoke-direct {v2, v5}, Landroid/content/Intent;.<init>:(Ljava/lang/String;)V // method@0002
+00078e: 6e20 1200 2400                         |000b: invoke-virtual {v4, v2}, Lcom/gelab/tvsettingsnavigator/MainActivity;.startActivity:(Landroid/content/Intent;)V // method@0012
+000794: 5445 0300                              |000e: iget-object v5, v4, Lcom/gelab/tvsettingsnavigator/MainActivity;.statusView:Landroid/widget/TextView; // field@0003
+000798: 2312 1d00                              |0010: new-array v2, v1, [Ljava/lang/Object; // type@001d
+00079c: 4d06 0200                              |0012: aput-object v6, v2, v0
+0007a0: 1403 0c00 057f                         |0014: const v3, #float 1.76788e+38 // #7f05000c
+0007a6: 6e30 0e00 3402                         |0017: invoke-virtual {v4, v3, v2}, Lcom/gelab/tvsettingsnavigator/MainActivity;.getString:(I[Ljava/lang/Object;)Ljava/lang/String; // method@000e
+0007ac: 0c02                                   |001a: move-result-object v2
+0007ae: 6e20 0600 2500                         |001b: invoke-virtual {v5, v2}, Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V // method@0006
+0007b4: 281a                                   |001e: goto 0038 // +001a
+0007b6: 5445 0300                              |001f: iget-object v5, v4, Lcom/gelab/tvsettingsnavigator/MainActivity;.statusView:Landroid/widget/TextView; // field@0003
+0007ba: 1406 0900 057f                         |0021: const v6, #float 1.76788e+38 // #7f050009
+0007c0: 6e20 0500 6500                         |0024: invoke-virtual {v5, v6}, Landroid/widget/TextView;.setText:(I)V // method@0005
+0007c6: 2811                                   |0027: goto 0038 // +0011
+0007c8: 5445 0300                              |0028: iget-object v5, v4, Lcom/gelab/tvsettingsnavigator/MainActivity;.statusView:Landroid/widget/TextView; // field@0003
+0007cc: 2311 1d00                              |002a: new-array v1, v1, [Ljava/lang/Object; // type@001d
+0007d0: 4d06 0100                              |002c: aput-object v6, v1, v0
+0007d4: 1406 0b00 057f                         |002e: const v6, #float 1.76788e+38 // #7f05000b
+0007da: 6e30 0e00 6401                         |0031: invoke-virtual {v4, v6, v1}, Lcom/gelab/tvsettingsnavigator/MainActivity;.getString:(I[Ljava/lang/Object;)Ljava/lang/String; // method@000e
+0007e0: 0c06                                   |0034: move-result-object v6
+0007e2: 6e20 0600 6500                         |0035: invoke-virtual {v5, v6}, Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V // method@0006
+0007e8: 0e00                                   |0038: return-void
+      catches       : 1
+        0x0006 - 0x001e
+          Landroid/content/ActivityNotFoundException; -> 0x0028
+          Ljava/lang/Exception; -> 0x001f
+      positions     :
+        0x0000 line=46
+        0x0006 line=48
+        0x000b line=49
+        0x000e line=51
+        0x001f line=55
+        0x0028 line=53
+      locals        :
+        0x0000 - 0x0039 reg=4 this Lcom/gelab/tvsettingsnavigator/MainActivity;
+        0x0000 - 0x0039 reg=5 (null) Ljava/lang/String;
+        0x0000 - 0x0039 reg=6 (null) I
+
+  Virtual methods   -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/MainActivity;)
+      name          : 'onCreate'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0004 (PROTECTED)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 4
+      insns size    : 70 16-bit code units
+0006cc:                                        |[0006cc] com.gelab.tvsettingsnavigator.MainActivity.onCreate:(Landroid/os/Bundle;)V
+0006dc: 6f20 0100 4300                         |0000: invoke-super {v3, v4}, Landroid/app/Activity;.onCreate:(Landroid/os/Bundle;)V // method@0001
+0006e2: 1504 047f                              |0003: const/high16 v4, #int 2130968576 // #7f04
+0006e6: 6e20 1100 4300                         |0005: invoke-virtual {v3, v4}, Lcom/gelab/tvsettingsnavigator/MainActivity;.setContentView:(I)V // method@0011
+0006ec: 1404 0400 037f                         |0008: const v4, #float 1.74129e+38 // #7f030004
+0006f2: 6e20 0c00 4300                         |000b: invoke-virtual {v3, v4}, Lcom/gelab/tvsettingsnavigator/MainActivity;.findViewById:(I)Landroid/view/View; // method@000c
+0006f8: 0c04                                   |000e: move-result-object v4
+0006fa: 1f04 0800                              |000f: check-cast v4, Landroid/widget/TextView; // type@0008
+0006fe: 5b34 0300                              |0011: iput-object v4, v3, Lcom/gelab/tvsettingsnavigator/MainActivity;.statusView:Landroid/widget/TextView; // field@0003
+000702: 1a04 2e00                              |0013: const-string v4, "android.settings.APPLICATION_DEVELOPMENT_SETTINGS" // string@002e
+000706: 1400 0500 057f                         |0015: const v0, #float 1.76787e+38 // #7f050005
+00070c: 1501 037f                              |0018: const/high16 v1, #int 2130903040 // #7f03
+000710: 7040 0b00 1304                         |001a: invoke-direct {v3, v1, v4, v0}, Lcom/gelab/tvsettingsnavigator/MainActivity;.bind:(ILjava/lang/String;I)V // method@000b
+000716: 1a04 2f00                              |001d: const-string v4, "android.settings.DEVICE_INFO_SETTINGS" // string@002f
+00071a: 1400 0600 057f                         |001f: const v0, #float 1.76787e+38 // #7f050006
+000720: 1402 0100 037f                         |0022: const v2, #float 1.74129e+38 // #7f030001
+000726: 7040 0b00 2304                         |0025: invoke-direct {v3, v2, v4, v0}, Lcom/gelab/tvsettingsnavigator/MainActivity;.bind:(ILjava/lang/String;I)V // method@000b
+00072c: 1a04 3000                              |0028: const-string v4, "android.settings.SETTINGS" // string@0030
+000730: 1400 0700 057f                         |002a: const v0, #float 1.76787e+38 // #7f050007
+000736: 1402 0200 037f                         |002d: const v2, #float 1.74129e+38 // #7f030002
+00073c: 7040 0b00 2304                         |0030: invoke-direct {v3, v2, v4, v0}, Lcom/gelab/tvsettingsnavigator/MainActivity;.bind:(ILjava/lang/String;I)V // method@000b
+000742: 1a04 3100                              |0033: const-string v4, "android.settings.WIRELESS_SETTINGS" // string@0031
+000746: 1400 0800 057f                         |0035: const v0, #float 1.76787e+38 // #7f050008
+00074c: 1402 0300 037f                         |0038: const v2, #float 1.74129e+38 // #7f030003
+000752: 7040 0b00 2304                         |003b: invoke-direct {v3, v2, v4, v0}, Lcom/gelab/tvsettingsnavigator/MainActivity;.bind:(ILjava/lang/String;I)V // method@000b
+000758: 6e20 0c00 1300                         |003e: invoke-virtual {v3, v1}, Lcom/gelab/tvsettingsnavigator/MainActivity;.findViewById:(I)Landroid/view/View; // method@000c
+00075e: 0c04                                   |0041: move-result-object v4
+000760: 6e10 0300 0400                         |0042: invoke-virtual {v4}, Landroid/view/View;.requestFocus:()Z // method@0003
+000766: 0e00                                   |0045: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=22
+        0x0005 line=23
+        0x000b line=25
+        0x001a line=27
+        0x0025 line=28
+        0x0030 line=29
+        0x003b line=30
+        0x003e line=32
+      locals        :
+        0x0000 - 0x0046 reg=3 this Lcom/gelab/tvsettingsnavigator/MainActivity;
+        0x0000 - 0x0046 reg=4 (null) Landroid/os/Bundle;
+
+  source_file_idx   : 32 (MainActivity.java)
+
+Class #2            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R$color;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : 'accent'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130771968
+    #1              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : 'bg'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130771969
+    #2              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : 'surface'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130771970
+    #3              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : 'text_primary'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130771971
+    #4              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : 'text_secondary'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130771972
+    #5              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : 'warning'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130771973
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$color;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0007fc:                                        |[0007fc] com.gelab.tvsettingsnavigator.R$color.<init>:()V
+00080c: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+000812: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=11
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R$color;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)
+
+Class #3            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R$drawable;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$drawable;)
+      name          : 'btn_bg'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130837504
+    #1              : (in Lcom/gelab/tvsettingsnavigator/R$drawable;)
+      name          : 'ic_launcher'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130837505
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$drawable;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+000814:                                        |[000814] com.gelab.tvsettingsnavigator.R$drawable.<init>:()V
+000824: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+00082a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=19
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R$drawable;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)
+
+Class #4            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R$id;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$id;)
+      name          : 'btn_development'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130903040
+    #1              : (in Lcom/gelab/tvsettingsnavigator/R$id;)
+      name          : 'btn_device_info'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130903041
+    #2              : (in Lcom/gelab/tvsettingsnavigator/R$id;)
+      name          : 'btn_settings'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130903042
+    #3              : (in Lcom/gelab/tvsettingsnavigator/R$id;)
+      name          : 'btn_wireless'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130903043
+    #4              : (in Lcom/gelab/tvsettingsnavigator/R$id;)
+      name          : 'status'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130903044
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$id;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00082c:                                        |[00082c] com.gelab.tvsettingsnavigator.R$id.<init>:()V
+00083c: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+000842: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=23
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R$id;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)
+
+Class #5            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R$layout;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$layout;)
+      name          : 'activity_main'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2130968576
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$layout;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+000844:                                        |[000844] com.gelab.tvsettingsnavigator.R$layout.<init>:()V
+000854: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+00085a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=30
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R$layout;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)
+
+Class #6            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R$string;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'app_name'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034112
+    #1              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'btn_development'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034113
+    #2              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'btn_device_info'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034114
+    #3              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'btn_settings'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034115
+    #4              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'btn_wireless'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034116
+    #5              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'entry_development'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034117
+    #6              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'entry_device_info'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034118
+    #7              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'entry_settings'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034119
+    #8              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'entry_wireless'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034120
+    #9              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'status_error'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034121
+    #10              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'status_idle'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034122
+    #11              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'status_not_found'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034123
+    #12              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'status_sent'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034124
+    #13              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'title'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034125
+    #14              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : 'warning'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131034126
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$string;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00085c:                                        |[00085c] com.gelab.tvsettingsnavigator.R$string.<init>:()V
+00086c: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+000872: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=33
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R$string;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)
+
+Class #7            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R$style;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$style;)
+      name          : 'AppTheme'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+      value         : 2131099648
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R$style;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+000874:                                        |[000874] com.gelab.tvsettingsnavigator.R$style.<init>:()V
+000884: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+00088a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=50
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R$style;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)
+
+Class #8            -
+  Class descriptor  : 'Lcom/gelab/tvsettingsnavigator/R;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/gelab/tvsettingsnavigator/R;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00088c:                                        |[00088c] com.gelab.tvsettingsnavigator.R.<init>:()V
+00089c: 7010 1a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@001a
+0008a2: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     :
+        0x0000 line=10
+      locals        :
+        0x0000 - 0x0004 reg=0 this Lcom/gelab/tvsettingsnavigator/R;
+
+  Virtual methods   -
+  source_file_idx   : 33 (R.java)

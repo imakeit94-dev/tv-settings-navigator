@@ -1,0 +1,14 @@
+Archive:  dist/tv-settings-navigator.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     2572  1980-01-01 08:00   AndroidManifest.xml
+     1648  1980-01-01 08:00   res/drawable/btn_bg.xml
+      928  1980-01-01 08:00   res/drawable/ic_launcher.xml
+     2840  1980-01-01 08:00   res/layout/activity_main.xml
+     3052  1980-01-01 08:00   resources.arsc
+     5140  1980-01-01 08:00   classes.dex
+      707  1980-01-01 08:00   META-INF/TESTDEBU.SF
+     1272  1980-01-01 08:00   META-INF/TESTDEBU.RSA
+      580  1980-01-01 08:00   META-INF/MANIFEST.MF
+---------                     -------
+    18739                     9 files

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">电视设置导航</string>
+    <string name="title">电视设置导航</string>
+    <string name="warning">仅打开设置入口；不会自动开启开发者或ADB；进入设置后请勿自行切换开关。</string>
+
+    <string name="btn_development">打开“开发者选项”入口</string>
+    <string name="btn_device_info">打开“关于设备 / 本机信息”</string>
+    <string name="btn_settings">打开系统设置</string>
+    <string name="btn_wireless">打开无线 / 网络设置</string>
+
+    <string name="entry_development">开发者选项入口</string>
+    <string name="entry_device_info">关于设备 / 本机信息</string>
+    <string name="entry_settings">系统设置</string>
+    <string name="entry_wireless">无线 / 网络设置</string>
+
+    <string name="status_idle">请选择一个入口。每个入口都需要手动点击。</string>
+    <string name="status_sent">已发送打开请求：%1$s。请以实际页面为准。</string>
+    <string name="status_not_found">本机未找到可处理“%1$s”的设置页面。未做任何修改。</string>
+    <string name="status_error">发送打开请求时出现异常。未做任何修改。</string>
+</resources>

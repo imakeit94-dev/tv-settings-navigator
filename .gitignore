@@ -1,0 +1,17 @@
+/build/
+/keystore/
+/.toolchains/
+/.verification-build/
+*.idsig
+*.keystore
+*.jks
+*.p12
+*.pfx
+local.properties
+.env
+.env.*
+*.log
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

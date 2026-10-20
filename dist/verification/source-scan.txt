@@ -1,0 +1,7 @@
+# 源码危险 API/权限扫描（应无输出）
+
+# Java 中使用的 Settings action（应只有四个）
+Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS
+Settings.ACTION_DEVICE_INFO_SETTINGS
+Settings.ACTION_SETTINGS
+Settings.ACTION_WIRELESS_SETTINGS

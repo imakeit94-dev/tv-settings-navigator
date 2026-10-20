@@ -1,0 +1,4 @@
+android.settings.APPLICATION_DEVELOPMENT_SETTINGS
+android.settings.DEVICE_INFO_SETTINGS
+android.settings.SETTINGS
+android.settings.WIRELESS_SETTINGS

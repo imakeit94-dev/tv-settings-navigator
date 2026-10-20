@@ -1,0 +1,7 @@
+# 反汇编中出现的全部 android.settings.* 常量
+android.settings.APPLICATION_DEVELOPMENT_SETTINGS
+android.settings.DEVICE_INFO_SETTINGS
+android.settings.SETTINGS
+android.settings.WIRELESS_SETTINGS
+
+# 禁用 API 扫描（无输出 = 未命中）
