@@ -2,6 +2,7 @@
 /keystore/
 /.toolchains/
 /.verification-build/
+/.impeccable/
 *.idsig
 *.keystore
 *.jks

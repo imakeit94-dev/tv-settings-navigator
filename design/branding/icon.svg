@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <title>电视设置导航 — 电视与进入箭头</title>
+  <rect x="4" y="4" width="100" height="100" rx="25" fill="#0B1830"/>
+  <g transform="translate(-9.18 -9.18) scale(1.17)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 43V41A7 7 0 0 1 34 34H74A7 7 0 0 1 81 41V64A7 7 0 0 1 74 71H34A7 7 0 0 1 27 64V62" stroke="#F0F7FF" stroke-width="5"/>
+    <path d="M54 71V78M44 78H64" stroke="#F0F7FF" stroke-width="4.5"/>
+    <path d="M24.5 52.5H57M47 42.5L57 52.5L47 62.5" stroke="#57DBFF" stroke-width="5.5"/>
+  </g>
+</svg>

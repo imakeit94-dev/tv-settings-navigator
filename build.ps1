@@ -49,7 +49,7 @@ Write-Host '[1/6] aapt2 compile/link'
 if ($LASTEXITCODE -ne 0) { throw 'aapt2 compile 失败' }
 & $aapt2 link -o (Join-Path $Build 'unsigned.apk') -I $Aj --manifest AndroidManifest.xml `
     -R (Join-Path $Build 'res.zip') --java (Join-Path $Build 'gen') `
-    --min-sdk-version 21 --target-sdk-version 28 --version-code 1 --version-name 1.0 --auto-add-overlay
+    --min-sdk-version 21 --target-sdk-version 28 --version-code 2 --version-name 1.1.0 --auto-add-overlay
 if ($LASTEXITCODE -ne 0) { throw 'aapt2 link 失败' }
 
 Write-Host '[2/6] javac'

@@ -21,3 +21,4 @@
 6. 重写 UI：中文按钮、醒目说明、结果区域、遥控器焦点导航；无 service/receiver/accessibility。
 7. 构建方式改为本地 `build.ps1`（aapt2 + javac + d8 + zipalign + apksigner），不执行上游 `build.sh`。
 8. 结果文案只说明“已发送打开请求，请以实际页面为准”，不把 `startActivity` 未抛异常等同于开发者/ADB 已开启。
+9. v1.1.0 加入遥控器焦点界面调整，并重新绘制启动图标及电视桌面横幅；图形母版保存在 `design/branding/`。
