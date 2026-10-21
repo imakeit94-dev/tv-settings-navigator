@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">电视设置导航</string>
     <string name="title">电视设置导航</string>
-    <string name="warning">仅打开设置入口；不会自动开启开发者或ADB；进入设置后请勿自行切换开关。</string>
+    <string name="warning">仅打开设置入口；不会自动开启开发者选项或 ADB。请按自己的调试需求，在系统设置中确认开关。</string>
 
     <string name="btn_development">打开“开发者选项”入口</string>
     <string name="btn_device_info">打开“关于设备 / 本机信息”</string>

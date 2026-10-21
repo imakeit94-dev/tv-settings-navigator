@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_focused="true">
+    <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <solid android:color="#1E88E5" />
-            <stroke android:width="3dp" android:color="#BBDEFB" />
+            <solid android:color="@color/button_pressed_fill" />
+            <stroke android:width="3dp" android:color="@color/button_focus_outline" />
             <corners android:radius="10dp" />
         </shape>
     </item>
-    <item android:state_pressed="true">
+    <item android:state_focused="true">
         <shape android:shape="rectangle">
-            <solid android:color="#1565C0" />
-            <stroke android:width="2dp" android:color="#90CAF9" />
+            <solid android:color="@color/button_focus_fill" />
+            <stroke android:width="3dp" android:color="@color/button_focus_outline" />
             <corners android:radius="10dp" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="#263238" />
-            <stroke android:width="2dp" android:color="#546E7A" />
+            <solid android:color="@color/button_fill" />
+            <stroke android:width="2dp" android:color="@color/button_outline" />
             <corners android:radius="10dp" />
         </shape>
     </item>
